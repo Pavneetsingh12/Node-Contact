@@ -1,0 +1,59 @@
+Q: Why ignopring an env file?
+        a box with all the secrets of your project,
+        so a bad person could not see what's your projects secrets are.
+        REAL projects
+        1 a file
+        2 contain envirnment variable 
+
+Q: whats difference between dev dependencies and dependicies?
+        These are the packages your app needs to work when it’s running in production.
+        These are tools you only use while writing code, testing, or building, but they’re not needed when the app is actually running live.
+        💡 Rule of thumb:
+        If your app won’t run without it — put it in dependencies.
+        If your app only needs it while you’re coding — devDependencies.
+
+
+
+Q: whats running in production means in node.js?
+        development : you are making a robot at home , testing , only you and your friends can use it.
+        production:robot super popular , share t with whole world.
+                    you put in on stage and that production minimal updation , testing etc
+
+Q:When we are creating an server in express , but server is huge box where we send req and res is our feedback, what is http server , why we need to use an express middleware while requiring express.?
+		That’s what a server does — it talks to you using HTTP, which is just the polite language computers use to talk on the internet.
+		🧱 What is an HTTP server?
+	It’s the engine inside the box — like a mailman who:
+	•	Takes your request
+	•	Figures out where to send it
+	•	Delivers a response back to you
+		Let’s pretend:
+	1.	A guest knocks on your door 🚪
+	2.	Your butler (middleware) checks:
+	•	Is their name on the list? ✅
+	•	Are they carrying anything weird? ❌
+	•	Should we clean up before responding? 🧼
+	3.	Then they say: “Okay, pass it to the boss (you)”
+    	•	🧃 HTTP server is like a juice machine — it gets your order and makes juice.
+	•	🎩 Express is a fancy robot that makes juice faster and tastier.
+	•	🧼 Middleware is a cleaning sponge. It washes the glass before giving you the juice!
+
+Q:what is express.router?
+		A sub-app within your Express app, whose sole job is to manage specific endpoints.
+
+Q: what are controllers?
+	Controllers are functions that handle what happens after a route is matched.
+
+Q:.enc.config()?
+		“Hey Node.js, here’s the key 🔑 — open that secret box and give me the notes inside!”
+
+Q:schema model for our contact?
+		A schema is a set of rules that tells your app:
+		“When saving something to the database, this is what it should look like.”
+
+Q:what to do authentication?
+		we will provide some endpoints which will help user to register and log in and once they are log in theycan use access token. with thw help of access token they can manage their contats.
+
+		
+
+
+    
